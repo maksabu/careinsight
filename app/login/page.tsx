@@ -29,7 +29,7 @@ export default function LoginPage() {
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-50">
             <div className="bg-white border border-gray-200 rounded-2xl p-8 w-full max-w-sm">
-                <h1 className="text-xl font-medium text-gray-900 mb-1">CareInsight AI</h1>
+                <h1 className="text-xl font-medium text-gray-900 mb-1">CareInsight-My View</h1>
                 <p className="text-sm text-gray-500 mb-6">Sign in to your account</p>
                 <div className="space-y-4">
                     <div>
@@ -65,7 +65,7 @@ export default function LoginPage() {
                     </button>
                 </div>
                 <p className="text-xs text-gray-400 text-center mt-6">
-                    Demo login: mpm@careinsight.com / guesswho
+                    Demo login: test123mpm@careinsight.com / guesswho
                 </p>
             </div>
         </div>
