@@ -65,7 +65,7 @@ export default function LoginPage() {
                     </button>
                 </div>
                 <p className="text-xs text-gray-400 text-center mt-6">
-                    Demo login: sarah@careinsight.com / password123
+                    Demo login: mpm@careinsight.com / password123
                 </p>
             </div>
         </div>
