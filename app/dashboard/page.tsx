@@ -163,9 +163,7 @@ export default function Dashboard() {
                                             outerRadius={60}
                                             innerRadius={30}
                                             paddingAngle={3}
-                                          
-                                            label={(props: any) => props.risk_level + ' (' + props.count + ')'}
-                                            labelLine={false}
+                                            label
                                         >
                                             {stats.byRisk.map((_: any, i: number) => (
                                                 <Cell key={i} fill={COLORS[i % COLORS.length]} />
