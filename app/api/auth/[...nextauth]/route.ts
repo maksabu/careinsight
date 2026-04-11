@@ -17,6 +17,8 @@ const handler = NextAuth({
                 );
                 if (workers.length === 0) return null;
                 const worker = workers[0];
+              
+
                 if (credentials?.password !== worker.password) return null;
                 return {
                     id: String(worker.id),
