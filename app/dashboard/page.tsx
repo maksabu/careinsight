@@ -163,7 +163,8 @@ export default function Dashboard() {
                                             outerRadius={60}
                                             innerRadius={30}
                                             paddingAngle={3}
-                                            label={({ risk_level, count }) => risk_level + ' (' + count + ')'}
+                                          
+                                            label={(props: any) => props.risk_level + ' (' + props.count + ')'}
                                             labelLine={false}
                                         >
                                             {stats.byRisk.map((_: any, i: number) => (
